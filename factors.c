@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/**
+ * factors - function that Factorize as many numbers as possible
+ * into a product of two smaller numbers
+ *
+ * n: parameter to identify long
+ *
+ * Return: if n was found the program will exit
+*/
 void factors(long n)
 {
     long i;
